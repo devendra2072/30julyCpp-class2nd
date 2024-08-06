@@ -191,3 +191,64 @@
 //         cout<<"invalid";
 //     }
 // }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a=45;
+//     if (cout<<"hello")
+//     {
+        
+//     }
+    
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a=45;
+//     if (a>100);
+//     {
+//         cout<<"welcome";
+//     }
+//     cout<<"\ndone";
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a=45;
+//     if (a>100)
+//     {
+//         cout<<"welcome";
+//     }
+//     else
+//     {
+//         cout<<"bhidcome";
+//     }
+//     cout<<"\ndone";
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a=45;
+//     if (a!=90)
+//     {
+//         cout<<"welcome";
+//     }
+//     else
+//     {
+//         cout<<"bhidcome";
+//     }
+//     cout<<"\ndone";
+
+// }
+
+
