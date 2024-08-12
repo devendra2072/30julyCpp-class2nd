@@ -1,4 +1,5 @@
 // ladder condition
+//WAP to find large number 
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -78,7 +79,7 @@
 // }
 
 
-//wap to display orgrnerate the % according to the 3 subject
+//wap to display generate the % according to the 3 subject
 
 #include <iostream>
 using namespace std;

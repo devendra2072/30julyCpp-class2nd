@@ -26,7 +26,8 @@
     
 // }
 
-// wap to check the pwd and otp validiti
+// wap to check the pwd and otp valid and invalid
+
 
 
 // #include<iostream>

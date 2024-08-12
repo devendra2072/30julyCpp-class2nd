@@ -221,7 +221,7 @@
 // #include<iostream>
 // using namespace std;
 // int main()
-// {
+// {]
 //     int a=45;
 //     if (a>100)
 //     {
