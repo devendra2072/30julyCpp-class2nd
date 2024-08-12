@@ -204,7 +204,8 @@
 using namespace std;
 int main()
 {
-     int a,b,c,ans;
+     int ans;
+     float a, b, c;
       
     cout <<"enter three number\n";
     cin>>a>>b>>c;
