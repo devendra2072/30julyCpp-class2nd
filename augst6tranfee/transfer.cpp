@@ -41,9 +41,10 @@
 //     if (i<=10)
 //     {
 //        goto gtp;
-//     }
-    
+//     }   
 // }
+
+//wap to print any number 10 to 1
 
 // #include<iostream>
 // using namespace std;
@@ -59,6 +60,8 @@
 //         goto rpy;
 //     }
 // }
+
+//wap to print the display the even number 1 to 10
 
 #include<iostream>
 using namespace std;

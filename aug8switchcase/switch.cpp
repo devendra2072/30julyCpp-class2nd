@@ -27,7 +27,7 @@
 //        cout<<"invalid";
 //     }
 // }
-
+//wap to print addition , subtraction , multiplay, division
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -104,7 +104,6 @@
 // #include<iostream>
 // using namespace std;
 // int main()
-
 // {
 //     char a,b,t;
 //     char c;
@@ -193,20 +192,17 @@
 //     default:
 //     {
 //         cout<<"invalid";
+ //        break;
 //     }
-//         break;
 //     }
 // }
-
-
-
+// wap to print 1 for smallest number and 2 for simple intrest and 3 for similer or not 
 #include<iostream>
 using namespace std;
 int main()
 {
      int ans;
-     float a, b, c;
-      
+     float a, b, c; 
     cout <<"enter three number\n";
     cin>>a>>b>>c;
     cout<<"select 1 for smallest num ,2 for simple intrest and 3 for all similer value or not=";
@@ -246,14 +242,12 @@ int main()
         {
             cout<<"not similer number";
         }
-        break;
-        
+        break;   
     } 
-
     default:
     {
         cout<<"invalid";
-    }
         break;
+    }   
     }
 }
