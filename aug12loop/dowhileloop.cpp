@@ -1,4 +1,4 @@
-//do while loop 
+// do while loop
 
 // wap to print 1 to 10 incriment
 // #include<iostream>
@@ -6,29 +6,26 @@
 // int main()
 // {
 //     int i=1;
-//     do 
+//     do
 //     {
 //         cout<<i<<"\n";
 //         i++;
 //     }while (i<=10);
 // }
 
-
 // wasp to decrement 10 to 1 print
-
 
 // #include<iostream>
 // using namespace std;
 // int main()
 // {
 //     int i=10;
-//     do 
+//     do
 //     {
 //         cout<<i<<"\n";
 //         i--;
 //     }while (i>0);
 // }
-
 
 // wap to print even number 1 to 10
 // #include<iostream>
@@ -36,7 +33,7 @@
 // int main()
 // {
 //     int i=1;
-//     do 
+//     do
 //     {
 //         if (i%2==0)
 //         {
@@ -46,18 +43,17 @@
 //     }while (i<=10);
 // }
 
-
-// wap to print odd number between 1 to 10 
+// wap to print odd number between 1 to 10
 // #include<iostream>
 // using namespace std;
 // int main()
 // {
 //     int i=1;
-//     do 
+//     do
 //     {
 //         if (i%2!=0)
 //         {
-//             cout<<i<<"\n";     
+//             cout<<i<<"\n";
 //         }
 //         i++;
 //     }while (i<=10);
@@ -71,18 +67,18 @@
 //     int a,i=1;
 //     cout<<"enter any number\n";
 //     cin>>a;
-//     do 
+//     do
 //     {
 //         cout<<a*i<<"\n";    //cout<<i<<"*"<<c<<"="<<c*i<<"\n";
 //         i++;
 //     }while (i<=10);
 // }
 
-//wap to print sum of numbers 1 to 10
+// wap to print sum of numbers 1 to 10
 
 // #include <iostream>
 // using namespace std;
-// int main() 
+// int main()
 // {
 //     int sum = 0;
 //     int i = 1;
@@ -94,41 +90,102 @@
 //     cout << "Sum of even numbers from 1 to 10: " << sum ;
 // }
 
-
-//wap to print sum of even numbers 1 to 10
+// wap to print sum of even numbers 1 to 10
 
 // #include <iostream>
 // using namespace std;
-// int main() 
+// int main()
 // {
 //     int sumEven = 0;
 //     int i = 1;
 //     do {
-//         if (i % 2 == 0) 
-//         { 
+//         if (i % 2 == 0)
+//         {
 //             cout<<i<<"\n";
-//             sumEven += i;
+//             sumEven=sumEven + i;
 //         }
 //         i++;
 //     } while (i <= 10);
 //     cout << "Sum of even numbers from 1 to 10: " << sumEven ;
 // }
 
-//wap to print sum of odd numbers 1 to 10
+// wap to print sum of odd numbers 1 to 10
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int sumodd = 0;
+//     int i = 1;
+//     do {
+//         if (i % 2 != 0)
+//         {
+//             cout<<i<<"\n";
+//             sumodd=sumodd + i;
+//         }
+//         i++;
+//     } while (i <= 10);
+//     cout << "Sum of even numbers from 1 to 10: " << sumodd ;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,m;
+//     cout<<"enter any no\n";
+//     cin>>n;
+//     m=n-1;
+//     while (m>=1)
+//     {
+//         n=n*m;
+//         m--;
+//     }
+//     cout<<"fectorial="<<n;
+
+// }
+
+// wap to print any number fectorial
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n, m;
+//     int i = 1;
+//     cout << "enter any number=";
+//     cin >> n;
+//     m = n - 1;
+//     do
+//     {
+//         n = n * m;
+//         m--;
+//     } while (i <= m);
+//     cout << "feactorial of=" << n;
+// }
+
+// wap to find out the given number prime or not prinme
 
 #include <iostream>
 using namespace std;
-int main() 
+int main()
 {
-    int sumodd = 0;
-    int i = 1;
-    do {
-        if (i % 2 != 0) 
-        { 
-            cout<<i<<"\n";
-            sumodd += i;
+    int n, i = 2;
+    cout << "enter no\n";
+    cin >> n;
+    do
+    {
+        if (n % i == 0)
+        {
+            break;
         }
         i++;
-    } while (i <= 10);
-    cout << "Sum of even numbers from 1 to 10: " << sumodd ;
+    } while (i < n);
+    if (i==n)
+    {
+        cout<<"prime";
+    }
+    else
+    {
+        cout<<"not prime";
+    } 
 }
