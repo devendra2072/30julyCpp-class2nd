@@ -125,24 +125,7 @@
 //         }
 //         i++;
 //     } while (i <= 10);
-//     cout << "Sum of even numbers from 1 to 10: " << sumodd ;
-// }
-
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int n,m;
-//     cout<<"enter any no\n";
-//     cin>>n;
-//     m=n-1;
-//     while (m>=1)
-//     {
-//         n=n*m;
-//         m--;
-//     }
-//     cout<<"fectorial="<<n;
-
+//     cout << "Sum of odd   numbers from 1 to 10: " << sumodd ;
 // }
 
 // wap to print any number fectorial
