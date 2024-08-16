@@ -10,7 +10,21 @@
 //       i++;
 //      }
 // }
-
+// #include<iostream>
+// using namespace std;
+// int  main()
+// {
+//     int n,r=0;
+//     cout<<"enter any number \n";
+//     cin>>n;
+//     while (n>0)
+//     {
+//         r=r*10+n%10;
+//         n=n/10;
+//     }
+//     cout<<"reverse of digit="<<r;   
+    
+// }
 // wasp to decrement 10 to 1 print-----------------------------
 
 // #include<iostream>
@@ -145,16 +159,115 @@
 
 // wap to the valid square root of any number
 
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int c,i=1;
+//   cout<<"enter any number to generate square root=";
+//   cin>>c;
+//   while (i<=c/2)
+//   {
+//     if (i*i==c)
+//     {
+//         cout<<"square root="<<i;
+//         break;
+//     }
+//    i++; 
+//   }
+  
+// }
+
+//wap to print the revers any digit
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,r=0;
+//     cout<<"enter any digits=";
+//     cin>>n;
+//     while (n>0)
+//     {
+//         r=r*10+n%10;
+//         n=n/10;
+//     }
+//     cout<<"revers digits="<<r;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,rv=0,rm=0;
+//     cout<<"enter any digits=";
+//     cin>>n;
+//     while (n!=0)
+//     {
+//         rm=n%10;
+//         rv=rv*10+rm;
+//         n=n/10;
+//     }
+//     cout<<"revers digits="<<rv;
+// }
+
+//wap to find out the lcm of any tw0 number
+
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-  int c,i=1;
-  cout<<"enter any number";
-  cin>>c;
-  while ()
-  {
-    /* code */
-  }
-  
+    int n,m;
+    cout<<"enter any two number=";
+    cin>>n>>m;
+    while (/* condition */)
+    {
+        /* code */
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
