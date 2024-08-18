@@ -211,7 +211,7 @@
 //     cout<<"revers digits="<<rv;
 // }
 
-//wap to find out the lcm of any tw0 number
+//wap to find out the lcm of any two number
 
 
 
@@ -219,12 +219,12 @@
 using namespace std;
 int main()
 {
-    int n,m;
+    int n,m,lcm;
     cout<<"enter any two number=";
     cin>>n>>m;
-    while (/* condition */)
+    while ()
     {
-        /* code */
+        
     }
     
 }
