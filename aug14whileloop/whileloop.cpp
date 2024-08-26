@@ -22,8 +22,8 @@
 //         r=r*10+n%10;
 //         n=n/10;
 //     }
-//     cout<<"reverse of digit="<<r;   
-    
+//     cout<<"reverse of digit="<<r;
+
 // }
 // wasp to decrement 10 to 1 print-----------------------------
 
@@ -102,6 +102,72 @@
 //     }
 // }
 
+// wap to print the sum of even numbers 1 to 10
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int sumEven = 0;
+//     int i = 1;
+//     while (i <= 10)
+//     {
+//         if (i % 2 == 0)
+//         {
+//             cout << i << "\n";
+//             sumEven = sumEven + i;
+//         }
+//         i++;
+//     }
+//     cout << "Sum of even numbers from 1 to 10: " << sumEven;
+// }
+
+//wap to print sum of odd numbers 1 to 10------------------
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int sumodd = 0;
+//     int i = 1;
+//     while (i <= 10)
+//     {
+//         if (i % 2 != 0)
+//         {
+//             cout << i << "\n";
+//             sumodd = sumodd + i;
+//         }
+//         i++;
+//     }
+//     cout << "Sum of even numbers from 1 to 10: " << sumodd;
+// }
+// wap to find out the given number prime or not prinme
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, i = 2;
+    cout << "enter no\n";
+    cin >> n;
+    while (i < n);
+    {
+        if (n % i == 0)
+        {
+            cout<<"v";
+            break;
+        }
+        i++;
+    } 
+    if (i==n)
+    {
+        cout<<"prime";
+    }
+    else
+    {
+        cout<<"not prime";
+    } 
+}
 
 // wap to generate the power---------------------------------------
 
@@ -132,14 +198,12 @@
 //     cout << "enter a number= \n";
 //     cin >> n;
 //     while (n!= 0)
-//     {    
+//     {
 //         sum =sum+n%10;
 //         n=n/10;
 //     }
 //     cout << "sum of digits=" << sum;
 // }
-
-
 
 // #include <iostream>
 // using namespace std;
@@ -149,7 +213,7 @@
 //     cout << "enter a number= \n";
 //     cin >> n;
 //     while (n> 0)
-//     {    
+//     {
 //         m=n%10;
 //         sum =sum+m;
 //         n=n/10;
@@ -173,12 +237,12 @@
 //         cout<<"square root="<<i;
 //         break;
 //     }
-//    i++; 
+//    i++;
 //   }
-  
+
 // }
 
-//wap to print the revers any digit
+// wap to print the revers any digit
 
 // #include<iostream>
 // using namespace std;
@@ -211,63 +275,18 @@
 //     cout<<"revers digits="<<rv;
 // }
 
-//wap to find out the lcm of any two number
+// wap to find out the lcm of any two number
 
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n,m,lcm;
+//     cout<<"enter any two number=";
+//     cin>>n>>m;
+//     while ()
+//     {
 
+//     }
 
-#include<iostream>
-using namespace std;
-int main()
-{
-    int n,m,lcm;
-    cout<<"enter any two number=";
-    cin>>n>>m;
-    while ()
-    {
-        
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
