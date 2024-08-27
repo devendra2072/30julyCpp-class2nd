@@ -141,7 +141,10 @@
 //     }
 //     cout << "Sum of even numbers from 1 to 10: " << sumodd;
 // }
-// wap to find out the given number prime or not prinme
+
+
+
+// wap to find out the given number prime or not prime
 
 #include <iostream>
 using namespace std;
