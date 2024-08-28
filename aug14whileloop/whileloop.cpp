@@ -146,31 +146,29 @@
 
 // wap to find out the given number prime or not prime
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    int n, i = 2;
-    cout << "enter no\n";
-    cin >> n;
-    while (i < n);
-    {
-        if (n % i == 0)
-        {
-            cout<<"v";
-            break;
-        }
-        i++;
-    } 
-    if (i==n)
-    {
-        cout<<"prime";
-    }
-    else
-    {
-        cout<<"not prime";
-    } 
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n, i = 2;
+//     cout << "enter no\n";
+//     cin >> n;
+//     while (n % i == 0);
+//     {
+//         if (i < n)
+//         {
+//         i++;
+//         }
+//     } 
+//     if (i==n)
+//     {
+//         cout<<"prime";
+//     }
+//     else
+//     {
+//         cout<<"not prime";
+//     } 
+// }
 
 // wap to generate the power---------------------------------------
 
