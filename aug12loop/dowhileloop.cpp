@@ -129,46 +129,46 @@
 // }
 
 // wap to print any number fectorial
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int n, m;
-//     int i = 1;
-//     cout << "enter any number=";
-//     cin >> n;
-//     m = n - 1;
-//     do
-//     {
-//         n = n * m;
-//         m--;
-//     } while (i <= m);
-//     cout << "feactorial of=" << n;
-// }
-
-// wap to find out the given number prime or not prinme
-
 #include <iostream>
 using namespace std;
 int main()
 {
-    int n, i = 2;
-    cout << "enter no\n";
+    int n, m;
+    int i = 1;
+    cout << "enter any number=";
     cin >> n;
+    m = n - 1;
     do
     {
-        if (n % i == 0)
-        {
-            break;
-        }
-        i++;
-    } while (i < n);
-    if (i==n)
-    {
-        cout<<"prime";
-    }
-    else
-    {
-        cout<<"not prime";
-    } 
+        n = n * m;
+        m--;
+    } while (i <= m);
+    cout << "feactorial of=" << n;
 }
+
+// wap to find out the given number prime or not prime
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n, i = 2;
+//     cout << "enter no\n";
+//     cin >> n;
+//     do
+//     {
+//         if (n % i == 0)
+//         {
+//             break;
+//         }
+//         i++;
+//     } while (i < n);
+//     if (i==n)
+//     {
+//         cout<<"prime";
+//     }
+//     else
+//     {
+//         cout<<"not prime";
+//     } 
+// }
