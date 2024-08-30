@@ -17,7 +17,7 @@
 // int main()
 // {
 //     int n, m, sum = 0;
-//     cout << "enter any digit=";
+//     cout << "enter any digit="; 
 //     cin >> n;
 //     while (n > 0)
 //     {
