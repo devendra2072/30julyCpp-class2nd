@@ -122,7 +122,7 @@
 //     cout << "Sum of even numbers from 1 to 10: " << sumEven;
 // }
 
-//wap to print sum of odd numbers 1 to 10------------------
+// wap to print sum of odd numbers 1 to 10------------------
 
 // #include <iostream>
 // using namespace std;
@@ -142,8 +142,6 @@
 //     cout << "Sum of even numbers from 1 to 10: " << sumodd;
 // }
 
-
-
 // wap to find out the given number prime or not prime
 
 // #include <iostream>
@@ -159,7 +157,7 @@
 //         {
 //         i++;
 //         }
-//     } 
+//     }
 //     if (i==n)
 //     {
 //         cout<<"prime";
@@ -167,7 +165,7 @@
 //     else
 //     {
 //         cout<<"not prime";
-//     } 
+//     }
 // }
 
 // wap to generate the power---------------------------------------
@@ -278,16 +276,44 @@
 
 // wap to find out the lcm of any two number
 
-// #include<iostream>
+// #include <iostream>
 // using namespace std;
 // int main()
 // {
-//     int n,m,lcm;
-//     cout<<"enter any two number=";
-//     cin>>n>>m;
-//     while ()
+//     int n, m, lcm;
+//     cout << "enter any two number=";
+//     cin >> n >> m;
+//     lcm = (n > m) ? n : m;
+//     while (n > 0 && m > 0)
 //     {
-
+//         if (lcm % n == 0 && lcm % m == 0)
+//         {
+//             break;
+//         }
+//         lcm++;
 //     }
+//     cout << "lcm= " << lcm;
+// }
 
+
+
+// wap to find out the hcf of any two number
+
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n, m, hcf;
+//     cout << "enter any two number=";
+//     cin >> n >> m;
+//     hcf = (n > m) ? m : n;
+//     while (hcf>0)
+//     {
+//         if (n%hcf==0 && m%hcf==0)
+//         {
+//             break;
+//         }
+//         hcf--;
+//     }
+//     cout << "hcf= " << hcf;
 // }
