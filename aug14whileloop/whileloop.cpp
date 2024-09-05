@@ -10,6 +10,10 @@
 //       i++;
 //      }
 // }
+
+//wap to print the revers number======================
+
+
 // #include<iostream>
 // using namespace std;
 // int  main()
@@ -25,7 +29,7 @@
 //     cout<<"reverse of digit="<<r;
 
 // }
-// wasp to decrement 10 to 1 print-----------------------------
+// wap to decrement 10 to 1 print-----------------------------
 
 // #include<iostream>
 // using namespace std;
@@ -144,29 +148,29 @@
 
 // wap to find out the given number prime or not prime
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int n, i = 2;
-//     cout << "enter no\n";
-//     cin >> n;
-//     while (n % i == 0);
-//     {
-//         if (i < n)
-//         {
-//         i++;
-//         }
-//     }
-//     if (i==n)
-//     {
-//         cout<<"prime";
-//     }
-//     else
-//     {
-//         cout<<"not prime";
-//     }
-// }
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, i = 2;
+    cout << "enter no\n";
+    cin >> n;
+    while (n % i == 0);
+    {
+        if (i < n)
+        {
+        i++;
+        }
+    }
+    if (i==n)
+    {
+        cout<<"prime";
+    }
+    else
+    {
+        cout<<"not prime";
+    }
+}
 
 // wap to generate the power---------------------------------------
 

@@ -1,4 +1,8 @@
+//wap to count the any digit---------------
+
+
 // #include <iostream>
+// #include<math.h>
 // using namespace std;
 // int main()
 // {
@@ -182,42 +186,39 @@
 
 // wap to find the given number is perfect or not  6,28 is perfect
 
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
-int main()
-{
-    int num, sum = 0;
+// int main()
+// {
+//     int num, sum = 0;
 
-    cout << "Enter a positive integer: ";
-    cin >> num;
+//     cout << "Enter a positive integer: ";
+//     cin >> num;
 
-    if (num <= 0)
-    {
-        cout << "Please enter a positive integer." << endl;
-        return 1;
-    }
-
-    for (int i = 1; i < num; i++)
-    {
-        if (num % i == 0)
-        {
-            sum += i;
-        }
-    }
-
-    if (sum == num)
-    {
-        cout << num << " is a perfect number." << endl;
-    }
-    else
-    {
-        cout << num << " is not a perfect number." << endl;
-    }
-
-    return 0;
-}
+//     // if (num <= 0)
+//     // {
+//     //     cout << "Please enter a positive integer." << endl;
+//     //     return 1;
+//     // }
+//     for (int i = 1; i < num; i++)
+//     {
+//         if (num % i == 0)
+//         {
+//             sum += i;
+//         }
+//     }
+//     if (sum == num)
+//     {
+//         cout << num << " is a perfect number." << endl;
+//     }
+//     else
+//     {
+//         cout << num << " is not a perfect number." << endl;
+//     }
+//     return 0;
+// }
 
 // wap to find the given number pelindrom
 // #include <iostream>
