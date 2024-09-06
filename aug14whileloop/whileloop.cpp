@@ -148,29 +148,29 @@
 
 // wap to find out the given number prime or not prime
 
-#include <iostream>
-using namespace std;
-int main()
-{
-    int n, i = 2;
-    cout << "enter no\n";
-    cin >> n;
-    while (n % i == 0);
-    {
-        if (i < n)
-        {
-        i++;
-        }
-    }
-    if (i==n)
-    {
-        cout<<"prime";
-    }
-    else
-    {
-        cout<<"not prime";
-    }
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int n, i = 2;
+//     cout << "enter no\n";
+//     cin >> n;
+//     while (n % i == 0);
+//     {
+//         if (i < n)
+//         {
+//         i++;
+//         }
+//     }
+//     if (i==n)
+//     {
+//         cout<<"prime";
+//     }
+//     else
+//     {
+//         cout<<"not prime";
+//     }
+// }
 
 // wap to generate the power---------------------------------------
 
@@ -303,21 +303,21 @@ int main()
 
 // wap to find out the hcf of any two number
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int n, m, hcf;
-//     cout << "enter any two number=";
-//     cin >> n >> m;
-//     hcf = (n > m) ? m : n;
-//     while (hcf>0)
-//     {
-//         if (n%hcf==0 && m%hcf==0)
-//         {
-//             break;
-//         }
-//         hcf--;
-//     }
-//     cout << "hcf= " << hcf;
-// }
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, m, hcf;
+    cout << "enter any two number=";
+    cin >> n >> m;
+    hcf = (n > m) ? m : n;
+    while (hcf>0)
+    {
+        if (n%hcf==0 && m%hcf==0)
+        {
+            break;
+        }
+        hcf--;
+    }
+    cout << "hcf= " << hcf;
+}
