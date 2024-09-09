@@ -10,8 +10,7 @@
 //     cout << "enter number";
 //     cin >> n;
 //     p = log(n);
-//     cout << p + 1 << "\n";
-
+//     cout << p+1 << "\n";
 // }
 
 // wap to print the sum of any digit number
@@ -68,7 +67,7 @@
 //     cout<<"normal year";
 //  }
 // }
-
+// wap to print the revers order
 // #include<iostream>
 // using namespace std ;
 // int main()
@@ -85,7 +84,7 @@
 //     cout<<"revers digits="<<rv;
 // }
 
-// wap to count any digit
+// wap to count any digit------------------------------
 // #include<iostream>
 // using namespace std ;
 // #include<math.h>
@@ -187,16 +186,12 @@
 // wap to find the given number is perfect or not  6,28 is perfect
 
 // #include <iostream>
-
 // using namespace std;
-
 // int main()
 // {
 //     int num, sum = 0;
-
 //     cout << "Enter a positive integer: ";
 //     cin >> num;
-
 //     // if (num <= 0)
 //     // {
 //     //     cout << "Please enter a positive integer." << endl;
@@ -224,32 +219,7 @@
 // #include <iostream>
 // using namespace std;
 // int main()
-// {
-//     int n, rem, rev = 0, digit = 0, org;
-//     org = n;
-
-//     cout << "Enter any number";
-//     cin >> n;
-
-//     while (n > 0)
-//     {
-//         rem = n % 10;
-//         rev = (rev * 10) + rem;
-//         n = n / 10;
-//         digit++;
-//     }
-//     if (org == rev)
-//     {
-//         cout << "Pallidrome";
-//     }
-//     else
-//     {
-//         cout << "Not pallidrome";
-//     }
-
-//     cout << "Rev is = " << rev;
-//     cout << "Count is = " << digit;
-
+//  {
 // int a,p=0,rev=0,n;
 // cout<<"enter any digit=";
 // cin>>a;
@@ -260,8 +230,8 @@
 //     rev=rev*10+a%10;
 //     a=a/10;
 // }
-//  cout<<"count="<<p;
-//  cout<<"reverse="<<rev;
+//  cout<<"count="<<p<<"\n";
+//  cout<<"reverse="<<rev<<"\n";
 //  if (rev==n)
 //  {
 //     cout<<"it is palindrome";

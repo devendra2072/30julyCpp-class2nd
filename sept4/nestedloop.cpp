@@ -1,4 +1,4 @@
-// nested looop ka use pattern bananane ke liye use karte hai
+// nested loop ka use pattern banane ke liye karte hai
 //paturn * 
     //   * *
     //   * * *
@@ -15,9 +15,6 @@
 //         cout << "\n";
 //     }
 // }
-
-
-
 
 // 1
 // 2       2
@@ -93,10 +90,7 @@
 //         cout << "\n";
 //     }
 // }
-
-
 // 2 paturn *
-
 // A
 // B       B
 // C       C       C

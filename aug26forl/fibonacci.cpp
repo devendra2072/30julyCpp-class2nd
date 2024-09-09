@@ -1,4 +1,5 @@
 // wap to find the fibonacci number
+// 0       1       1       2       3       3
 // #include <iostream>
 // using namespace std;
 // int main()
@@ -44,20 +45,20 @@
 
 // wap to print decimal to binary  number
 
-#include <iostream>
-#include <math.h>
-using namespace std;
-int main()
-{
-    int d, binary = 0, i = 1, m;
-    cout << "enter decimal num=";
-    cin >> d;
-    while (d > 0)
-    {
-        m = d % 2;
-        binary = binary + m * i;
-        i = i * 10;
-        d = d / 2;
-    }
-    cout << "binary number=" << binary;
-}
+// #include <iostream>
+// #include <math.h>
+// using namespace std;
+// int main()
+// {
+//     int d, binary = 0, i = 1, m;
+//     cout << "enter decimal num=";
+//     cin >> d;
+//     while (d > 0)
+//     {
+//         m = d % 2;
+//         binary = binary + m * i;
+//         i = i * 10;
+//         d = d / 2;
+//     }
+//     cout << "binary number=" << binary;
+// }

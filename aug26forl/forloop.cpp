@@ -41,42 +41,18 @@
 
 // wap to to print first and last number
 
-#include <iostream>
-using namespace std;
-#include <math.h>
-int main()
-{
-    int n, p, last, first;
-    cout << "enter any num=";
-    cin >> n;
-    p = log10(n);
-    cout << p + 1<< "\n";
-    last = n % 10;
-    cout << "last=" << last << "\n";
-    first = n / pow(10, p);
-    cout << "first=" << first;
-
-    // #include<iostream>
-    // using namespace std;
-    // #include<math.h>
-    // int main() {
-    //     /*
-    //     int a ,i=1;
-    //     for(i=1;i<=3;i++){
-    //         cout<<"\nEnter the passward";
-    //         cin>>a;
-    //         if(a == 1234){
-    //             cout<<"login Success";
-
-    //             break;
-    //         }
-
-    //         else{
-    //             cout<<"Try again\n";
-    //         }
-
-    //     }
-    //     if(i==4){
-    //         cout<<"your card is Blocked";
-    //     }*/
-}
+// #include <iostream>
+// using namespace std;
+// #include <math.h>
+// int main()
+// {
+// int n, p, last, first;
+// cout << "enter any num=";
+// cin >> n;
+// p = log10(n);
+// cout << p + 1<< "\n";
+// last = n % 10;
+// cout << "last=" << last << "\n";
+// first = n / pow(10, p);
+// cout << "first=" << first;
+// }
