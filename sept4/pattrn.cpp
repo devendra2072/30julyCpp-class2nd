@@ -183,7 +183,6 @@
 //         cout<<"\n";
 //     }  
 
-
 //     for (int r = n; r >= 1; r--)
 //     {
 //         for (int s = 1; s<=n-r; s++)
