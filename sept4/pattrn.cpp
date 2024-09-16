@@ -165,35 +165,35 @@
 //  * * *
 //   * *
 //    *
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int n =4;
-//    for (int r = 1; r <= n-1; r++)
-//     {
-//         for (int s = n -r; s>=1; s--)
-//         {
-//             cout<<" ";
-//         }
-//         for (int c = 1; c <= r; c++)
-//         {
-//             cout<<"* ";
-//         }
-//         cout<<"\n";
-//     }  
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n =4;
+   for (int r = 1; r <= n-1; r++)
+    {
+        for (int s = n -r; s>=1; s--)
+        {
+            cout<<" ";
+        }
+        for (int c = 1; c <= r; c++)
+        {
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }  
 
-//     for (int r = n; r >= 1; r--)
-//     {
-//         for (int s = 1; s<=n-r; s++)
-//         {
-//             cout<<" ";
+    for (int r = n; r >= 1; r--)
+    {
+        for (int s = 1; s<=n-r; s++)
+        {
+            cout<<" ";
 
-//         }
-//         for (int c = 1; c <= r; c++)
-//         {
-//             cout<<"* ";
-//         }
-//         cout<<"\n";
-//     }    
-// }
+        }
+        for (int c = 1; c <= r; c++)
+        {
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }    
+}
