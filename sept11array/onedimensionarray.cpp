@@ -99,20 +99,16 @@
 //     // cybrom[3]=6546;
 //     // cout << sizeof(cybrom) << "\n";     // address of 0 loacation
 //     // // cout<<INT_MAX;
-
 //         int cybrom[3]={10,20,12};
 //         for (int i = 0; i < 3; i++)
 //         {
 //             cout<<cybrom[i]<<"\t";
 //         }
-
 //     }
 
 // // Q) W.A.P to enter the dynamic input using an array?
-// // Online C++ compiler to run C++ program online
 // #include <iostream>
 // using namespace std;
-
 //     int main()
 //     {
 //         int n;
@@ -131,29 +127,22 @@
 //     }
 
 // // Q) W.A.P to print the MAX and MIN value of an ARRAY
-
-// // Online C++ compiler to run C++ program online
 // #include <iostream>
-
 // using namespace std;
 //     int main()
 //     {
-//         // Print the minimum and maximum value of an array
 //         int n;
 //         cout << "Size ofan array";
 //         cin >> n;
 //         int arr[n];
-
 //         for (int i = 0; i < n; i++)
 //         {
 //             cin >> arr[i];
 //         }
 //         int max = arr[0];
 //         int min = arr[0];
-
 //         for (int i = 1; i < n; i++)
 //         {
-
 //             if (arr[i] > max)
 //             {
 //                 max = arr[i];
@@ -165,19 +154,13 @@
 //         }
 //         cout << "Max no = " << max << "\n";
 //         cout << "Min no = " << min;
-
 //         return 0;
 //     }
 // // Q81) W.A.P to print the sum of array?
-
-// // Online C++ compiler to run C++ program online
 // #include <iostream>
-
-
 // using namespace std;
 //     int main()
 //     {
-//         // Q) W.A.P the sum pf an array
 //         int n;
 //         cout << "Size ofan array";
 //         cin >> n;
@@ -198,70 +181,57 @@
 //     }
 
 // // Q82) W.A.P to find the index of the key element?
-
-// // Online C++ compiler to run C++ program online
 // #include <iostream>
-
-
 // using namespace std;
-//     int main()
+// int main()
+// {
+//     int n;
+//     cout << "Size ofan array";
+//     cin >> n;
+//     int arr[n];
+//     cout << "Enter the array";
+//     for (int i = 0; i < n; i++)
 //     {
-//         int n;
-//         cout << "Size ofan array";
-//         cin >> n;
-//         int arr[n];
-//         cout << "Enter the array";
-//         for (int i = 0; i < n; i++)
-//         {
-
-//             cin >> arr[i];
-//         }
-//         int key;
-//         cout << "Enter the key";
-//         cin >> key;
-//         for (int i = 0; i < n; i++)
-//         {
-//             if (arr[i] == key)
-//             {
-//                 cout << i << " th index";
-//             }
-//         }
-//         //  cout<<sum;
-
-//         return 0;
+//         cin >> arr[i];
 //     }
-
+//     int key;
+//     cout << "Enter the key";
+//     cin >> key;
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i] == key)
+//         {
+//             cout << i << " th index";
+//         }
+//     }
+//     //  cout<<sum;
+//     return 0;
+// }
 //     // STATIC AND DYNAMIC MEMORY
-
-// #include <iostream>
-//         using namespace std;
-
-//     int main()
-//     {
-//         // Write C++ code here
-//         int a[8] = {1, 2, 3};
-//         cout << sizeof(a) << "\n"; // We have declared the size before is kn own as static memory allocation
-//         for (int i = 0; i < 8; i++)
-//         {
-//             cout << a[i] << "\n";
-//         }
-//         cout << "Another output";
-//         int a1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9}; // We have not declared the size it allocates the memory with the help of Dynamic memory allocation
-//         int s = sizeof(a) / sizeof(a[0]);
-//         for (int i = 0; i < s; i++)
-//         {
-//             cout << a1[i] << "\n";
-//         }
-
-//         return 0;
-//     }
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[8] = {1, 2, 3};
+    cout << sizeof(a) << "\n"; // We have declared the size before is kn own as static memory allocation
+    for (int i = 0; i < 8; i++)
+    {
+        cout << a[i] << "\n";
+    }
+    cout << "Another output";
+    int a1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9}; // We have not declared the size it allocates the memory with the help of Dynamic memory allocation
+    int s = sizeof(a) / sizeof(a[0]);
+    for (int i = 0; i < s; i++)
+    {
+        cout << a1[i] << "\n";
+    }
+    return 0;
+}
 
 // // Q84) W.A.P to display the even values in a given array?
 // //        Int arr[5] = {1,2,3,4,5};
 // // Output:
 // //     -1, 3, 5 because they are at 0, 2, 4 index which are even
-
-//     // Online C++ compiler to run C++ program online
 // #include <iostream>
 //         using namespace std;
 //     int main()
@@ -283,7 +253,6 @@
 //                 cout << arr[i] << "  ";
 //             }
 //         }
-
 //         return 0;
 //     }
 
@@ -291,8 +260,6 @@
 // //        Int arr[5] = {1,2,3,4,5};
 // // Output:
 // //     -1 4 9 16 25
-
-// // Online C++ compiler to run C++ program online
 // #include <iostream>
 //         using namespace std;
 //     int main()
@@ -322,8 +289,6 @@
 
 //     int main()
 //     {
-//         // Write C++ code here
-
 //         int n;
 //         cout << "Size of an array";
 //         cin >> n;
@@ -346,11 +311,8 @@
 
 // #include <iostream>
 //     using namespace std;
-
 //     int main()
 //     {
-//         // Write C++ code here
-
 //         int n;
 //         cout << "Enter the Size";
 //         cin >> n;
@@ -369,5 +331,3 @@
 //             }
 //         }
 //     }
-
-    // print the value of array
