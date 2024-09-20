@@ -86,34 +86,45 @@
 //     }
 // }
 
-#include <iostream>
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int arr[] = {8, 0, 2, 0, 5, 1};
+//     int s = sizeof(arr) / sizeof(arr[0]);
+//     int tmp[s];
+//     int k = 0;
+//     for (int i = 0; i < s; i++)
+//     {
+//         cout << arr[i] << "\n";
+//     }
+//     cout << "\nresult=\n";
+//     for (int i = 0; i < s; i++)
+//     {
+//         if (arr[i] = 0)
+//         {
+//             tmp[k] = arr[i];
+//             k++;
+//         }
+//     }
+//     while (k < s)
+//     {
+//         tmp[k] = 0;
+//         k++;
+//     }
+//     for (int i = 0; i < k; i++)
+//     {
+//         cout << tmp[i] << "\t";
+//     }
+// }
+
+
+#include<iostream>
 using namespace std;
 int main()
 {
-    int arr[] = {8, 0, 2, 0, 5, 1};
-    int s = sizeof(arr) / sizeof(arr[0]);
-    int tmp[s];
-    int k = 0;
-    for (int i = 0; i < s; i++)
-    {
-        cout << arr[i] << "\n";
-    }
-    cout << "\nresult=\n";
-    for (int i = 0; i < s; i++)
-    {
-        if (arr[i] = 0)
-        {
-            tmp[k] = arr[i];
-            k++;
-        }
-    }
-    while (k < s)
-    {
-        tmp[k] = 0;
-        k++;
-    }
-    for (int i = 0; i < k; i++)
-    {
-        cout << tmp[i] << "\t";
-    }
+    int arr[3]={40,9,8};
+    cout<<arr[1];
+    cout<<arr[-2];
+    
 }
