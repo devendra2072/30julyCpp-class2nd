@@ -29,15 +29,15 @@
 //     cout << ans;
 // }
 
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     char c;
-//     cout<<"enter ant char =";
-//     cin>>c;
-//     cout<<"ASCII value of "<<c<<"=is="<<(int)c;
-// }
+#include<iostream>
+using namespace std;
+int main()
+{
+    char c;
+    cout<<"enter ant char =";
+    cin>>c;
+    cout<<"ASCII value of "<<c<<"=is="<<(int)c;
+}
 
 // wap to to print first and last number
 

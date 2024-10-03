@@ -1,4 +1,13 @@
 // #include <iostream>
+// #include <string.h>
+// #include <math.h>
+// using namespace std;
+// int main()
+// {
+//     int s = 81;
+//     cout << sqrt(s) << "\n" : cout << pow(2, 3) << "\n" : cout << max(2, 3) << "\n" : cout << min(10, 34) << "\n":
+// }
+// #include <iostream>
 // using namespace std;
 // #include <string.h>
 // int main()
@@ -109,9 +118,31 @@
 //     cube(t);
 // }
 
+#include <iostream>
+using namespace std;
 
+int SI(int principal, int rate, int time) {
+    int simpleInterest = (principal * rate * time) / 100;
+    return simpleInterest;
+}
 
+int main() {
+    int principal, rate, time;
 
+    cout << "Enter principal amount: ";
+    cin >> principal;
+
+    cout << "Enter rate of interest: ";
+    cin >> rate;
+
+    cout << "Enter time period (in years): ";
+    cin >> time;
+
+    int simpleInterest = SI(principal, rate, time);
+    cout << "Simple Interest: " << simpleInterest << endl;
+
+    return 0;
+}
 // #include <iostream>
 // using namespace std;
 // // with parameter value user se lena hai
@@ -127,26 +158,38 @@
 //    sqr(k);
 // }
 
+// #include <iostream>
+// using namespace std;
+// // with parameter value user se lena hai
+// void swap(int x,int y)
+// {
+//     x=x+y;
+//     y=x-y;
+//     x=x-y;
+// cout<<"after swapping x="<<x<<"\n";
+// cout<<"after swapping y="<<y<<"\n";
+// }
+// int main()
+// {
+//    int k ,t;
+//    cout<<"enter any no=" ;
+//    cin>>k;
+//    cout<<"enter any no=" ;
+//    cin>>t;
+//    swap(k,t);
+// }
 
-
-#include <iostream>
-using namespace std;
-// with parameter value user se lena hai
-void swap(int x,int y)
-{
-    x=x+y;
-    y=x-y;
-    x=x-y;
-cout<<"after swapping x="<<x<<"\n";
-cout<<"after swapping y="<<y<<"\n";
-}
-int main()
-{
-   int k ,t;
-   cout<<"enter any no=" ;
-   cin>>k;
-   cout<<"enter any no=" ;
-   cin>>t;
-   swap(k,t);
-}
-
+// #include <iostream>
+// using namespace std;
+// // with parameter value user se lena hai
+// void mx(int a, int b)
+// {
+//     (a > b) ? cout << "max value=" << a : cout << "max value=" << b;
+// }
+// int main()
+// {
+//     int k, t;
+//     cout << "enter 2 valuefor max\n";
+//     cin >> k >> t;
+//     mx(k, t);
+// }
