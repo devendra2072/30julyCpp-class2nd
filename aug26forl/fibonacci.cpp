@@ -1,24 +1,24 @@
 // wap to find the fibonacci number
-// 0       1       1       2       3       3
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int n1 = 0, n2 = 1, a, sum = 0;
-//     cout << "Enter the number=";
-//     cin >> a;
-//     cout<<n1<<"\t"<<n2<<"\t";
-//     for (int i = 1; i <= a; i++)
-//     {
-//         sum = n1 + n2;
-//         n1 = n2;
-//         n2 = sum;
-//         cout  << sum << "\t";
-//     }
-//     cout << sum;
+// 0       1       1       2       3       5
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n1 = 0, n2 = 1, a, sum = 0;
+    cout << "Enter the number=";
+    cin >> a;
+    cout<<n1<<"\t"<<n2<<"\t";
+    for (int i = 1; i <= a; i++)
+    {
+        sum = n1 + n2;
+        n1 = n2;
+        n2 = sum;
+        cout  << sum << "\t";
+    }
+    cout << sum;
 
-//     return 0;
-// }
+    return 0;
+}
 
 // wap to print binary to decimal number
 

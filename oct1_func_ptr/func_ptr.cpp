@@ -11,7 +11,7 @@
 //     int k=fun(3,4);
 //     cout<<k;
 // }
-
+// wap to print factorial 
 // #include <iostream>
 // using namespace std;
 // void fact(int a)

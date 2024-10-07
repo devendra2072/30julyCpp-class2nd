@@ -65,7 +65,6 @@
 //     t=a;
 //     a=n;
 //     b=t;
-
 // }
 // int main()
 // {
@@ -75,7 +74,6 @@
 //     swp(p,q);  // actual parameter / argument
 //     cout<<"after swapped a="<<p<<"\n";
 //     cout<<" after swapped b="<<q<<"\n";
-
 // }
 
 // #include <iostream>
@@ -100,7 +98,6 @@ void shift(int *a, int s)
 {
     int tmp [s];
     int c=0;
-
     for (int i = 0; i <s; i++)
     {
         if (a[i] % 2!= 0)
@@ -113,14 +110,11 @@ void shift(int *a, int s)
     {
        tmp[c]=0;
        c++;
-
     }
     for (int i = 0; i < s; i++)
     {
         cout<<tmp[i]<<"\t";
     }
-    
-    
 }
 int main()
 {
