@@ -39,24 +39,24 @@
 // }
 
 // fectorial in recursion (recursive tree in explain in process)
-#include<iostream>
-using namespace std;
-int  fact(int n)
-{
-  int r=n;
-  if (n==1 || n==0)
-  {
-    return r;
-  }
-  r=r*fact(n-1);
-}
-int main()
-{
-    int n;
-    cout<<"enter any number= ";
-    cin>>n;
-    cout<<fact(n);
-}
+// #include<iostream>
+// using namespace std;
+// int  fact(int n)
+// {
+//   int r=n;
+//   if (n==1 || n==0)
+//   {
+//     return r;
+//   }
+//   r=r*fact(n-1);
+// }
+// int main()
+// {
+//     int n;
+//     cout<<"enter any number= ";
+//     cin>>n;
+//     cout<<fact(n);
+// }
 
 // wap to display the febonicci serise of n turm
 
