@@ -170,66 +170,66 @@
 // dynamic memory  : use and delete memory
 // ~ 
 
-#include<iostream>
-#include<string.h>
-using namespace std;
-
-class cybrom
-{
-    char *name;
-    public:cybrom(char *n)
-    {
-        name=new char[30];
-        strcpy(name,n);
-    }
-    void show()
-    {
-        cout<<"name="<<name<<"\n";
-    }
-    void merges(char *c)
-    {
-        strcat(name,c);
-    }
-    cybrom(cybrom &ob)
-    {
-        name=new char[30];
-        strcpy(name,ob.name);
-    }
-    ~cybrom()
-    {
-        cout<<"\n memory relesed";
-        delete []name;
-    }
-};
-int main()
-{
-    cybrom obj1("rohan");
-    cybrom obj2(obj1);
-    obj1.show();
-    obj2.show();
-    obj1.merges("sharma");
-    cout<<"\nmerge of obj1=";
-    obj1.show();
-    cout<<"\nmerge of obj2=";
-    obj2.show();
-    
-}
-
-// pointer* with new keyword 
-// distructor ~ use 
 // #include<iostream>
+// #include<string.h>
 // using namespace std;
-// class login{
-//     public:login()
+
+// class cybrom
+// {
+//     char *name;
+//     public:cybrom(char *n)
 //     {
-//         cout<<"memory created\n";
+//         name=new char[30];
+//         strcpy(name,n);
 //     }
-//     ~login()
+//     void show()
 //     {
-//         cout<<"memory realeased";
+//         cout<<"name="<<name<<"\n";
+//     }
+//     void merges(char *c)
+//     {
+//         strcat(name,c);
+//     }
+//     cybrom(cybrom &ob)
+//     {
+//         name=new char[30];
+//         strcpy(name,ob.name);
+//     }
+//     ~cybrom()
+//     {
+//         cout<<"\n memory relesed";
+//         delete []name;
 //     }
 // };
 // int main()
 // {
-//     login d;
+//     cybrom obj1("rohan");
+//     cybrom obj2(obj1);
+//     obj1.show();
+//     obj2.show();
+//     obj1.merges("sharma");
+//     cout<<"\nmerge of obj1=";
+//     obj1.show();
+//     cout<<"\nmerge of obj2=";
+//     obj2.show();
+    
 // }
+
+// pointer* with new keyword 
+// distructor ~ use 
+#include<iostream>
+using namespace std;
+class login{
+    public:login()
+    {
+        cout<<"memory created\n";
+    }
+    ~login()
+    {
+        cout<<"memory released";
+    }
+};
+int main()
+{
+    login d;
+}
