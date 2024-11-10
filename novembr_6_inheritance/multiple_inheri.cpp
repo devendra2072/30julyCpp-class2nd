@@ -1,3 +1,35 @@
+// #include<iostream>
+// using namespace std;
+// class SBI {
+//     public:SBI()
+//     {
+//         cout << "\nclass SBI\n";
+//     }
+// };
+// class AXIS
+// {
+//     public:AXIS()
+//     {
+//         cout << "\nclass AXIS\n";
+//     }
+// };
+// class CUSTOMER:public AXIS, public SBI
+// {
+//     public: CUSTOMER()
+//     {
+//         cout << "paisa doob gaya\n";
+//     }
+// };
+
+// int main()
+// {
+//     CUSTOMER c;
+// }
+
+
+
+
+// // ===========daimond problen===========
 // #include <iostream>
 // using namespace std;
 // class SBI
@@ -28,8 +60,7 @@
 //     c.msg();
 // }
 
-
-
+//error aayenga ==
 // #include <iostream>
 // using namespace std;
 // class SBI
@@ -72,7 +103,6 @@
 //    public:int s=2000;
 // };
 // class AXIS:virtual public RBI
-
 // {
 //    public:int a=3000;
 // };
@@ -88,3 +118,31 @@
 //     cout<<obj.c<<"\n";
 //     cout<<obj.r;
 // }
+
+
+#include<iostream>
+using namespace std;
+class SBI
+{
+    public:void fun()
+    {
+      cout<<"\nSBI";
+    }
+};
+class AXIS
+{
+    public:void fun()
+    {
+        cout<<"\nAXIS";
+    }
+};
+
+class CUST:public SBI,public AXIS
+{
+
+};
+int main()
+{
+ CUST obj;
+ obj.fun();
+}
