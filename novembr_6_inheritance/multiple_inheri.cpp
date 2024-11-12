@@ -120,29 +120,29 @@
 // }
 
 
-#include<iostream>
-using namespace std;
-class SBI
-{
-    public:void fun()
-    {
-      cout<<"\nSBI";
-    }
-};
-class AXIS
-{
-    public:void fun()
-    {
-        cout<<"\nAXIS";
-    }
-};
+// #include<iostream>
+// using namespace std;
+// class SBI
+// {
+//     public:void fun()
+//     {
+//       cout<<"\nSBI";
+//     }
+// };
+// class AXIS
+// {
+//     public:void fun()
+//     {
+//         cout<<"\nAXIS";
+//     }
+// };
 
-class CUST:public SBI,public AXIS
-{
+// class CUST:public SBI,public AXIS
+// {
 
-};
-int main()
-{
- CUST obj;
- obj.fun();
-}
+// };
+// int main()
+// {
+//  CUST obj;
+//  obj.fun();
+// }
