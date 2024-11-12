@@ -41,10 +41,10 @@ int main()
     RBI p;
     rb= &p;
     rb->msg();
-    // SBI obj;
-    // AXIS obj2;
-    // rb=&obj2;
-    // rb->msg();
-    // rb=&obj;
-    // rb->msg();
+    SBI obj;
+    AXIS obj2;
+    rb=&obj2;
+    rb->msg();
+    rb=&obj;
+    rb->msg();
 }
