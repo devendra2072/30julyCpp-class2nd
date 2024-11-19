@@ -1,3 +1,6 @@
+// you should know the parameter and return type to make a function pointer 
+// for example rapido based on the situation (nature) don't accept the another refrence
+
 // #include<iostream>
 // using namespace std;
 // int cyb(int a, int b)

@@ -81,18 +81,18 @@
 // }
 
 // constructor size 
-#include<iostream>
-using namespace std;
-class cybrom
-{
-    int a;
-    public:cybrom()
-    {
-        cout<<"memory  allocation\n";
-    }
-};
-int main()
-{
-    cybrom m;
-    cout<<sizeof(m);
-}
+// #include<iostream>
+// using namespace std;
+// class cybrom
+// {
+//     int a;
+//     public:cybrom()
+//     {
+//         cout<<"memory  allocation\n";
+//     }
+// };
+// int main()
+// {
+//     cybrom m;
+//     cout<<sizeof(m);
+// }

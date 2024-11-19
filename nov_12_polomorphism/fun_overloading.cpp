@@ -11,40 +11,70 @@
 //every-time you have to make pointer object of root class//we have to create normal object of each class(sbi)//every process takes place so rbi should know from where the transition is happen
 // -> this operator is used for pointer object. (we have to make rbi virtual)//---- here Rbi is refer as a super class. every class inherit the root classd
 
-#include<iostream>
-using namespace std;
-class RBI  // super classs 
-{
-    public:virtual void msg()
-    {
-        cout<<"\nRbi class \n";
-    }
-};
+// #include<iostream>
+// using namespace std;
+// class RBI  // super classs 
+// {
+//     public:virtual void msg()
+//     {
+//         cout<<"\nRbi class \n";
+//     }
+// };
 
-class SBI:public RBI 
-{
-    public:virtual void msg()
-    {
-        cout<<"\nsbi class \n";
-    }
-};
-class AXIS:public RBI
-{
-    public:void msg()
-    {
-        cout<<"\nAXIS class \n";
-    }
-};
-int main()
-{
-    RBI *rb;
-    RBI p;
-    rb= &p;
-    rb->msg();
-    SBI obj;
-    AXIS obj2;
-    rb=&obj2;
-    rb->msg();
-    rb=&obj;
-    rb->msg();
-}
+// class SBI:public RBI 
+// {
+//     public:virtual void msg()
+//     {
+//         cout<<"\nsbi class \n";
+//     }
+// };
+// class AXIS:public RBI
+// {
+//     public:void msg()
+//     {
+//         cout<<"\nAXIS class \n";
+//     }
+// };
+// int main()
+// {
+//     RBI *rb;
+//     RBI p;
+//     rb= &p;
+//     rb->msg();
+//     SBI obj;
+//     AXIS obj2;
+//     rb=&obj2;
+//     rb->msg();
+//     rb=&obj;
+//     rb->msg();
+// }
+
+
+// pure virtual function
+// #include<iostream>
+
+// using namespace std;
+
+// class RBI  // abstract class
+// {
+//     public:virtual void msg()=0; // pure virtual function
+// };
+// class SBI:public RBI
+// {
+//     public:void show()
+//     {
+//         cout<<"\nsbi class \n";
+//     }
+//     void msg() // override function
+//     {
+//         cout<<"happy";
+//     }
+// };
+// int main()
+// {
+//    RBI *r;
+//    SBI s;
+//    r=&s;
+//    r->msg(); 
+//    s.show();
+// }
