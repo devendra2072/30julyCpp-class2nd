@@ -96,3 +96,54 @@
 //     cybrom m;
 //     cout<<sizeof(m);
 // }
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+class Factorial {
+private:
+    int number;
+    long long result;
+
+public:
+    // Constructor
+    Factorial(int num) {
+        number = num;
+        result = calculateFactorial(number);
+    }
+
+    // Function to calculate factorial
+    long long calculateFactorial(int n) {
+        if (n <= 1)
+            return 1;
+        else
+            return n * calculateFactorial(n - 1);
+    }
+
+    // Function to print the result
+    void printFactorial() {
+        cout << "Factorial of " << number << " is " << result << "\n";
+    }
+};
+
+int main() {
+    int num;
+
+    cout << "Enter a number to calculate its factorial: ";
+    cin >> num;
+
+    // Create an object of Factorial class
+    Factorial fact(num);
+
+    // Print the factorial
+    fact.printFactorial();
+
+    return 0;
+}

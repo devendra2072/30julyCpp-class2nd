@@ -110,6 +110,47 @@
 // //at the time we define the
 
 
+
+
+// #include <iostream>
+// using namespace std;
+
+// class Swap {
+// public:
+//     int a;
+//     int b;
+// public:
+// Swap(int x, int y) : a(x), b(y) {}  // Constructor to initialize a and b
+//     // Friend function declaration
+//     friend void swapValues(Swap &s);
+// };
+
+// // Friend function definition
+// void swapValues(Swap &s) {
+//     int temp = s.a;
+//     s.a = s.b;
+//     s.b = temp;
+// }
+
+// int main() {
+//     int x, y;
+//     cout << "Enter two integers: ";
+//     cin >> x >> y;
+
+//     // Create an object of Swap class
+//     Swap s(x, y);
+
+//     cout << "Before swapping: a = " << s.a << ", b = " << s.b <<"\n";
+
+//     // Call the friend function to swap values
+//     swapValues(s);
+
+//     cout << "After swapping: a = " << s.a << ", b = " << s.b <<"\n";
+
+//     return 0;
+// }
+
+
 // ==========================friend class ================================
 // #include<iostream>
 // using namespace std;

@@ -127,7 +127,7 @@
 // shallo copy  to deep cop
 
 // #include <iostream>
-// // #include<cstring>
+// // #include<string>
 // #include<string.h>
 // using namespace std;
 
@@ -155,15 +155,15 @@
 //     cybrom c1("amit");
 //     cybrom c2(c1);
 //     c1.show();
-    // c2.show();
-    // c1.merges("sharma");
-    // c1.show();
-    // c2.show();
+//     c2.show();
+//     c1.merges("sharma");
+//     c1.show();
+//     c2.show();
 // }
 
 
 
-//deep copy main new memory banate hai run time main 
+// deep copy main new object and  new memory banate hai run time main 
 // pointer* with new keyword 
 
 // non primitive data type 
@@ -217,19 +217,21 @@
 
 // pointer* with new keyword 
 // distructor ~ use 
-#include<iostream>
-using namespace std;
-class login{
-    public:login()
-    {
-        cout<<"memory created\n";
-    }
-    ~login()
-    {
-        cout<<"memory released";
-    }
-};
-int main()
-{
-    login d;
-}
+// #include<iostream>
+// using namespace std;
+// class login{
+//     public:login()
+//     {
+//         cout<<"memory created\n";
+//     }
+//     ~login()
+//     {
+//         cout<<"memory released";
+//     }
+// };
+// int main()
+// {
+//     login d;
+// }
+
+

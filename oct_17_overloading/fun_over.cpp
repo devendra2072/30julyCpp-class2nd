@@ -13,7 +13,6 @@
 //     void sum (int a, int b)
 //     {
 //         cout<<"result: "<<a+b<<"\n";
-
 //     }
 // };
 // int main()

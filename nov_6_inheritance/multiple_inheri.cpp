@@ -61,35 +61,35 @@
 // }
 
 //error aayenga ==
-// #include <iostream>
-// using namespace std;
-// class SBI
-// {
-// public:void msg()
-//     {
-//         cout << "\n class SBI\n";
-//     }
-// };
-// class AXIS
-// {
-// public:void msg()
-//     {
-//         cout << "\nclass AXIS\n";
-//     }
-// };
-// class customer : public AXIS, public SBI
-// {
-// public:void show()
-//     {
-//         cout << "paisa doob gaya\n";
-//     }
-// };
-// int main()
-// {
-//     customer c;
-//     c.show();
-//     c.msg();
-// }
+#include <iostream>
+using namespace std;
+class SBI
+{
+public:void msg()
+    {
+        cout << "\n class SBI\n";
+    }
+};
+class AXIS
+{
+public:void msg()
+    {
+        cout << "\nclass AXIS\n";
+    }
+};
+class customer : public AXIS, public SBI
+{
+public:void show()
+    {
+        cout << "paisa doob gaya\n";
+    }
+};
+int main()
+{
+    customer c;
+    c.show();
+    c.msg();
+}
 
 // // daimond problem ko solve karne ke liye vertual keyword ka use karte hai 
 // #include<iostream>

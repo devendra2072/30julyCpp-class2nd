@@ -1,3 +1,14 @@
+//abnormal situation in a program in known as exception.
+//try
+//(condition)
+//{
+
+//}
+//catch()
+//{
+
+//}
+
 // #include<iostream>
 // using namespace std;
 // int main() {
