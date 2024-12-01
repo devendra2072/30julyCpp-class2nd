@@ -58,7 +58,7 @@
 // }
 
 // initilizer:-
-// iska use constant value ko re initilized karne ke liye initilizer ka use karne ke liye banay gaya hai
+// iska use constant value ko re-initilized karne ke liye initilizer ka use karne ke liye banay gaya hai
 
 // #include <iostream>
 // using namespace std;

@@ -1,4 +1,5 @@
-// operator overloading:-  
+// operator overloading:-   in thisconcept we use for this for  non primitiv data type to perform any task or methometical operation 
+//those for  example you have create a class in that particular 
 // types = 1. unary operator overloading  2. binary operator overloading
 
 // 1. unary operator overloading
@@ -63,7 +64,6 @@ class cyb
     {
         a = a + cl.a;
         cout<<a;
-
     }
 };
 

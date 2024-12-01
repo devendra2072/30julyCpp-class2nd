@@ -1,7 +1,7 @@
 // tu protect from inherit
 #include<iostream>
 using namespace std;
-class RBI  // disinherit from final keywords
+class RBI  final // disinherit from final keywords
 {
     public:void msg()
     {

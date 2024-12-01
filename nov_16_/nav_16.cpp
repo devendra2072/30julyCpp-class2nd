@@ -41,26 +41,26 @@
 
 //W.A.P to find out the Elder Customer ?
 
-// #include <iostream>
-// #include<string>
-// using namespace std;
-// class person{
-//     public:int age;
-//     public:string Name;
+#include <iostream>
+#include<string>
+using namespace std;
+class person{
+    public:int age;
+    public:string Name;
     
-//     public:person(string n,int a){
-//         age = a;
-//         Name = n;
-//     }
-// };
-// int main() {   
-//     person b("devendra",54);
-//     person c("nimish",26);
+    public:person(string n,int a){
+        age = a;
+        Name = n;
+    }
+};
+int main() {   
+    person b("devendra",54);
+    person c("nimish",26);
     
-//     if(b.age>c.age){
-//         cout<<b.Name;
-//     }
-//     else{
-//         cout<<c.Name;
-//     }
+    if(b.age>c.age){
+        cout<<b.Name;
+    }
+    else{
+        cout<<c.Name;
+    }
 // }

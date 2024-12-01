@@ -26,7 +26,7 @@
 // }
 
 
-// multi thread 
+// multi thread  2 parameter ka use karte hai
 
 // #include <iostream>
 // using namespace std;
